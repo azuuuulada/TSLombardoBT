@@ -16,11 +16,13 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Bootstrap INDEX</title>
 </head>
+ <!-- SACAR: BORDER(ES DE PRUEBA)-->
 <body>
-<div class="grid">
-
-        <header class="flexbox">
+    <div class="container">
+        <div class="row">
+            <header>
             <img  id="headerLogo" src="img/logo2.jpeg" alt="logo">
+            <div class="col-12 col-lg-6 border">
             <nav id="navUl">
                 <ul>
                     <li><a href="#">Inicio</a></li>
@@ -30,22 +32,32 @@
                     <li><a href="pages/contacto.html">Contacto</a></li>
                 </ul> 
             </nav>
-        </header>
+            </div>
+            </header>
+         </div>
+    </div>
     
         <main align="center">
             <!-- IMG -->
-            <div>
-                <h1 class="titulo">ULTIMAS NOTICIAS</h1>
+            <div class="container">
+                <div class="row">
+                    <h1 class="titulo col-12 col-lg-12 border">ULTIMAS NOTICIAS</h1>
+                </div>
             </div>
             <!-- ENCABEZADO -->
-            <div>
-                <p>
-                    Taylor Swift en la portada de su ultimo album "Midnights"
-                </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 border">
+                    <img src="img/header2.jpeg" alt="header midnights">
+                    <p>Taylor Swift en la portada de su ultimo album "Midnights"</p>
+                    </div>
+                </div>
             </div>
             <!-- TEXTO -->
-            <div>
-                <p> Midnights es el décimo álbum de estudio de la cantautora estadounidense Taylor Swift. 
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 border">
+                    <p> Midnights es el décimo álbum de estudio de la cantautora estadounidense Taylor Swift. 
                     El álbum se lanzó el 21 de octubre de 2022 a través de Republic Records.
                     Es su primer trabajo nuevo desde su noveno álbum de estudio, Evermore. 
                     Swift anunció el álbum en los MTV Video Music Awards 2022 el 28 de agosto. </p>
@@ -53,37 +65,50 @@
                     <h4>REPRODUCE EL ALBUM Y MIRA CUANDO FUE ANUNCIADO</h4>
                     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3lS1y25WAhcqJDATJK70Mq?utm_source=generator&theme=0" width="50%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     <iframe width="350" height="250" src="https://www.youtube.com/embed/GOOpACczcBE" title="Taylor Swift announces new album onstage at VMAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="https://www.instagram.com/p/CkawwhLufL1/?utm_source=ig_web_copy_link" target="_BLANK">
-                    <img class="img imgTour" src="img/tour.jpeg" alt="fechas tour">
-                </a>
-                <p>Este pasado 1 de Noviembre, el equipo de la cantante anuncio fechas para su próximo
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 border">
+                    <a href="https://www.instagram.com/p/CkawwhLufL1/?utm_source=ig_web_copy_link" target="_BLANK">
+                    <img class="img imgTour" src="img/tour.jpeg" alt="fechas tour"> </a> 
+                    <p>Este pasado 1 de Noviembre, el equipo de la cantante anuncio fechas para su próximo
                     tour! Después de casi 4 años, Taylor Swift vuelve a los escenarios con "The Eras Tour",
                     donde va a abarcar canciones desde "Midnights" hasta el principio con su self-titled album.
                     Por ahora solo fechas en US fueron lanzadas, pero aseguraron que proximamente van a salir
-                    las internacionales, Argentina podría estar en esa lista...
-                </p>
-             </div>
+                    las internacionales, Argentina podría estar en esa lista...</p>
+                    </div>
+                </div>
+            </div>
     
             
-            <div>
-                <p class="divP">
-                    Para mas informacion sobre Taylor o su discografia, visita las demas pestañas de este foro!
-                </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 border">
+                    <p class="divP">Para mas informacion sobre Taylor o su discografia, visita las demas pestañas de este foro!</p>
+                    </div>
+                </div>
             </div>
         </main>
     
         <footer>
-            <nav class="footerNav">
-                <ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 border">
+                    <nav class="footerNav">
+                     <ul>
                     <li>
                         <a href="#">Volver arriba!</a>
                     </li>
-                </ul>
-            </nav>
-            <div >
-                <h3>©Hecho por Azul Lombardo</h3>
+                    </ul>
+                    </nav>
+                    <div >
+                    <h3>©Hecho por Azul Lombardo</h3>
+                    </div>
+                    </div>
+                </div>
             </div>
         </footer>
     
@@ -92,6 +117,5 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
     crossorigin="anonymous"></script>
 
-</div>
 </body>
 </html>
