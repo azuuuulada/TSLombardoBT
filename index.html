@@ -18,45 +18,54 @@
 </head>
  <!-- SACAR: BORDER(ES DE PRUEBA)-->
 <body>
-    <div class="container">
-        <div class="row">
-            <header>
-            <img  id="headerLogo" src="img/logo2.jpeg" alt="logo">
-            <div class="col-12 col-lg-6 border">
-            <nav id="navUl">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="pages/biografia.html">Biografía</a></li>
-                    <li><a href="pages/discografia.html">Discografía</a></li>
-                    <li><a href="pages/sitiosOficiales.html">Sitios Oficiales</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                </ul> 
-            </nav>
-            </div>
-            </header>
-         </div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo2.jpeg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/biografia.html">Biografía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/discografia.html">Discografía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/sitiosOficiales.html" >Sitios Oficiales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     
         <main align="center">
             <!-- IMG -->
-            <div class="container">
+            <div class="container-flex">
                 <div class="row">
-                    <h1 class="titulo col-12 col-lg-12 border">ULTIMAS NOTICIAS</h1>
+                    <h1 class="titulo col-12 col-lg-12  paddingT centrar">ULTIMAS NOTICIAS</h1>
                 </div>
             </div>
             <!-- ENCABEZADO -->
-            <div class="container">
+            <div class="container-flex">
                 <div class="row">
-                    <div class="col-12 col-lg-12 border">
-                    <img src="img/header2.jpeg" alt="header midnights">
+                    <div class="col-12 col-lg-12 ">
+                    <img  class="img-fluid" src="img/header2.jpeg" alt="header midnights">
                     <p>Taylor Swift en la portada de su ultimo album "Midnights"</p>
                     </div>
                 </div>
             </div>
             <!-- TEXTO -->
-            <div class="container">
+            <div class="container-flex">
                 <div class="row">
-                    <div class="col-12 col-lg-12 border">
+                    <div class="col-12 col-lg-12 ">
                     <p> Midnights es el décimo álbum de estudio de la cantautora estadounidense Taylor Swift. 
                     El álbum se lanzó el 21 de octubre de 2022 a través de Republic Records.
                     Es su primer trabajo nuevo desde su noveno álbum de estudio, Evermore. 
@@ -69,11 +78,11 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container-flex">
                 <div class="row">
-                    <div class="col-12 col-lg-12 border">
+                    <div class="col-12 col-lg-12 ">
                     <a href="https://www.instagram.com/p/CkawwhLufL1/?utm_source=ig_web_copy_link" target="_BLANK">
-                    <img class="img imgTour" src="img/tour.jpeg" alt="fechas tour"> </a> 
+                    <img class="img-fluid" src="img/tour.jpeg" alt="fechas tour"> </a> 
                     <p>Este pasado 1 de Noviembre, el equipo de la cantante anuncio fechas para su próximo
                     tour! Después de casi 4 años, Taylor Swift vuelve a los escenarios con "The Eras Tour",
                     donde va a abarcar canciones desde "Midnights" hasta el principio con su self-titled album.
@@ -84,9 +93,9 @@
             </div>
     
             
-            <div class="container">
+            <div class="container-flex">
                 <div class="row">
-                    <div class="col-12 col-lg-12 border">
+                    <div class="col-12 col-lg-12 ">
                     <p class="divP">Para mas informacion sobre Taylor o su discografia, visita las demas pestañas de este foro!</p>
                     </div>
                 </div>
@@ -94,15 +103,11 @@
         </main>
     
         <footer>
-            <div class="container">
+            <div class="container-flex">
                 <div class="row">
-                    <div class="col-12 col-lg-12 border">
-                    <nav class="footerNav">
-                     <ul>
-                    <li>
-                        <a href="#">Volver arriba!</a>
-                    </li>
-                    </ul>
+                    <div class="col-12 col-lg-12 ">
+                    <nav align="center" class="footerNav">
+                        <a class="btn btn-primary" href="#" role="button">Volver arriba!</a>
                     </nav>
                     <div >
                     <h3>©Hecho por Azul Lombardo</h3>
